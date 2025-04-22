@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DeleteStudent {
     public static void deleteStudent(ArrayList<Student> studentList) {
         Scanner sc = new Scanner(System.in);
-        try {
+        try { 
             System.out.print("Enter PRN to delete: ");
             String prn = sc.nextLine();
             boolean removed = studentList.removeIf(s -> s.prn.equals(prn));
