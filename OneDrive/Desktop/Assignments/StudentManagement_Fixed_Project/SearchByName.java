@@ -5,7 +5,7 @@ public class SearchByName {
     public static void searchByName(ArrayList<Student> studentList) {
         Scanner sc = new Scanner(System.in);
         try {
-            System.out.print("Enter Name to search: ");
+            System.out.print("Enter Name to search: "); 
             String name = sc.nextLine();
             boolean found = false;
             for (Student s : studentList) {
