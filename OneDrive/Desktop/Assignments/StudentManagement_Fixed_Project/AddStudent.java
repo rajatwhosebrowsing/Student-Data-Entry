@@ -7,7 +7,7 @@ public class AddStudent {
         try {
             System.out.print("Enter PRN: ");
             String prn = sc.nextLine();
-            System.out.print("Enter Name: ");
+            System.out.print("Enter Name: ");  
             String name = sc.nextLine();
             System.out.print("Enter Date of Birth (dd-mm-yyyy): ");
             String dob = sc.nextLine();
