@@ -2,7 +2,7 @@
 Name: Rajat
 PRN: 1234567890
 Batch: AIML B2
-*/
+*/  
 
 import java.util.ArrayList;
 import java.util.Scanner;
