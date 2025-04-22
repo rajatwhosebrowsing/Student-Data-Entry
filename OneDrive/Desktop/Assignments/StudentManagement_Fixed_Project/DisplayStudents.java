@@ -5,7 +5,7 @@ public class DisplayStudents {
         if (studentList.isEmpty())
             System.out.println("No students to display.");
         else
-            for (Student s : studentList)
+            for (Student s : studentList) 
                 s.display();
     }
 }
